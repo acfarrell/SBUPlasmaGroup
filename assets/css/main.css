@@ -3120,8 +3120,8 @@ input, select, textarea {
 			}
 
 				.spotlights > section > .image {
-					width: 100%;
-					height: 50vh;
+					width: 10em;
+					height: 10em;
 				}
 
 				.spotlights > section > .content {
@@ -3141,8 +3141,9 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlights > section > .image {
-				height: 50vh;
-				min-height: 15em;
+				height: 10em;
+        width=10em
+				min-height: 10em;
 			}
 
 			.spotlights > section > .content {
@@ -3264,7 +3265,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1-alt {
-			background-color: #000066 ;
+			background-color: #000022 ;
 		}
 
 		.wrapper.style2 {
@@ -3582,7 +3583,7 @@ input, select, textarea {
 			opacity: 1;
 			width: 100%;
       background-image: url("../../images/logo.svg");
-      background-position: top center;
+      background-position: top left;
       background-size: contain;
       background-repeat: no-repeat;
 		}
