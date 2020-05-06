@@ -3011,6 +3011,8 @@ input, select, textarea {
       height: 10em;
       -webkit-filter: grayscale(100%);
       filter: grayscale(100%);
+      margin-top: auto;
+      margin-bottom: auto;
 		}
 
 			.spotlights > section > .image img {
@@ -3108,7 +3110,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .content {
-				padding: 4em 4em 2em 4em ;
+				padding: 2em 2em 2em 2em ;
 			}
 
 		}
@@ -3120,8 +3122,11 @@ input, select, textarea {
 			}
 
 				.spotlights > section > .image {
-					width: 10em;
-					height: 10em;
+					max-width: 40em;
+          height: auto;
+			    border-radius: 50%;
+          margin-left: auto;
+          margin-right:auto;
 				}
 
 				.spotlights > section > .content {
