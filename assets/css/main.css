@@ -3583,7 +3583,7 @@ input, select, textarea {
 			opacity: 1;
 			width: 100%;
       background-image: url("../../images/logo.svg");
-      background-position: top left;
+      background-position: top center;
       background-size: contain;
       background-repeat: no-repeat;
 		}
@@ -3828,11 +3828,11 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#sidebar {
-				height: 3.5em;
+				height: 4em;
 				left: 0;
-				line-height: 3.5em;
-				overflow: hidden;
-				padding: 0;
+				line-height: 4em;
+				/*overflow: hidden;*/
+				padding: 0 2em 0 2em;
 				text-align: center;
 				top: 0;
 				width: 100%;
@@ -3849,6 +3849,10 @@ input, select, textarea {
 					align-items: stretch;
 					height: inherit;
 					line-height: inherit;
+          background-image: url("../../images/logo.svg");
+          background-position: center left;
+          background-size: contain;
+          background-repeat: no-repeat;
 				}
 
 				#sidebar nav {
