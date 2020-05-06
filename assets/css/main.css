@@ -115,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(255, 255, 255, .95);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -3869,11 +3869,12 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/introbg.svg");
+		background-image: url("images/introbg.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-	}
+}
 
 		#intro p {
 			font-size: 1.25em;
